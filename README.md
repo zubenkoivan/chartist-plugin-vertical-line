@@ -1,4 +1,4 @@
-# Line Separator plugin for Chartist.js
+# Vertical Line plugin for Chartist.js
 
 [![Build Status](https://travis-ci.org/zubenkoivan/chartist-plugin-vertical-line.svg?branch=master)](https://travis-ci.org/zubenkoivan/chartist-plugin-vertical-line)
 
