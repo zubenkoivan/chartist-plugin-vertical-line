@@ -1,0 +1,41 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="../bower_components/chartist/dist/chartist.min.css">
+  <style type="text/css">
+  .ct-chart {
+    width: 700px;
+    height: 400px;
+  }
+
+  .vertical-line {
+    stroke: orange;
+    stroke-width: 3px;
+  }
+  </style>
+</head>
+<body>
+
+  <div class="ct-chart"></div>
+  
+  <script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="../bower_components/chartist/dist/chartist.js"></script>
+  <script type="text/javascript" src="../dist/chartist-plugin-vertical-line.min.js"></script>
+
+  <script type="text/javascript">
+    new Chartist.Line('.ct-chart', {
+      labels: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      series: [
+        [12, 9, 7, 8, 5],
+        [2, 1, 3.5, 7, 3],
+        [1, 3, 4, 5, 6]
+      ]
+    }, {
+      plugins: [
+        Chartist.plugins.verticalLine({
+          position: 'Tuesday'
+        })
+      ]
+    });
+  </script>
+</body>
+</html>

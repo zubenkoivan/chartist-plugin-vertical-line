@@ -1,0 +1,17 @@
+{
+  "name": "chartist-plugin-vertical-line",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "~1.11.0",
+    "chartist": "~0.8.0"
+  },
+  "ignore": [
+    ".*",
+    "Gruntfile.js",
+    "package.json",
+    "node_modules",
+    "demo",
+    "src",
+    "test"
+  ]
+}
