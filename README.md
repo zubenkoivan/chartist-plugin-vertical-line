@@ -1,6 +1,6 @@
 # Line Separator plugin for Chartist.js
 
-[![Build Status](https://travis-ci.org/zubenkoivan/chartist-plugin-separator.svg?branch=master)](https://travis-ci.org/zubenkoivan/chartist-plugin-separator)
+[![Build Status](https://travis-ci.org/zubenkoivan/chartist-plugin-vertical-line.svg?branch=master)](https://travis-ci.org/zubenkoivan/chartist-plugin-vertical-line)
 
 This is a simple plugin for Chartist.js that will add vertical line with optional label in a line chart.
 
